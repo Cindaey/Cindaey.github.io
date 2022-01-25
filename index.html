@@ -10,19 +10,25 @@
     </head>
     <body>
         <header>
-            <button onclick="openNav()" class="menu">&#9776;</button>
+            <div class="skipnav"> <a href="#main" class="skip">Skip to Main Content</a></div>
+            <div id="text">
             <h1>Cindy Dong</h1>
+            <button onclick="openNav()" class="menu">&#9776;</button>
+            <hr>
             <nav>
                 <ul class="drawer" id="theDrawer">
                     <li><button aria-label="Close" class="closeBtn" id="closeBtn" onclick="closeNav()"><span>&times;</span></button></li>
-                    <li><a href="" aria-current="false" onfocus="openNav()"><span id="home">thing 1</span></a></li>
-                    <li><a href="" aria-current="false" onfocus="openNav()"><span>Design &amp; Illustration Portfolio</span></a></li>
-                    <li><a href="" aria-current="false" onfocus="openNav()"><span>Web Portfolio</span></a></li>
-                    <li><a href="" aria-current="false" onfocus="openNav()" onblur="closeNav()"><span>Motion Graphics Portfolio</span></a></li>
+                    <li><a href="index.html" aria-current="page" onfocus="openNav()"><span id="home">Home</span></a></li>
+                    <li><a href="diportfolio.html" aria-current="false" onfocus="openNav()"><span>Portfolio</span></a></li>
+                    <li><a href="wportfolio.html" aria-current="false" onfocus="openNav()"><span>Commission</span></a></li>
+                    <li><a href="motion.html" aria-current="false" onfocus="openNav()" onblur="closeNav()"><span>Resume</span></a></li>
+                    <li><a href="motion.html" aria-current="false" onfocus="openNav()" onblur="closeNav()"><span>Contact</span></a></li>
                 </ul></nav>
+                </div>
         </header>
         <main>
-
+            <h2>Current Projects</h2>
+            <h2></h2>
         </main>
         <footer>
 
