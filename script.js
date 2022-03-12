@@ -1,4 +1,4 @@
 function openNav() {
-    document.getElementById("theDrawer").style.left = "0";}
+    document.getElementById("hamburger").style.top = "0";}
 function closeNav() {
-    document.getElementById("theDrawer").style.left = "-70rem";}
+    document.getElementById("hamburger").style.top = "-70rem";}
