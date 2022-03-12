@@ -26,7 +26,7 @@ header{
   text-align: center;
   margin:0 auto;
 }
-#logo{
+#logo,.logo_a{
   margin:0 auto;
   grid-column: 2/3;
   grid-row: 2/3;
