@@ -38,10 +38,11 @@ h1{
   grid-row: 3/4;
 }
 .menu{
+  font-size: 1.1rem;
     grid-row:1/2;
     grid-column: 3/4;
     font-size: 1rem;
-    padding: .625rem;
+
     z-index: 2000;
     cursor: pointer;
     border-radius: 0.3rem;
@@ -96,13 +97,14 @@ clear: both;
   background-color: #555;
   color: white;
 }
-#year2022, #year2022_large{
-  padding-left:15px;
+#year2022, #year2022_large, #year2021, #year2021_large, #year2020, #year2020_large{
+  font-size:1rem;
 }
   @media screen and (min-width: 700px) {
     body{
       display:grid;
       grid-template-columns: 300px 1fr;
+      font-size: 1.2rem;
     }
     header{
       grid-column: 1/2;
@@ -111,6 +113,7 @@ clear: both;
       display: block;
     }
     .sidebar{
+      font-size: 1.2rem;
       text-decoration: none;
       list-style-type:none;
       display:block;}
@@ -122,7 +125,7 @@ clear: both;
       position:absolute;
       grid-column: 2/3;
       left: 300px;
-      margin-left: 1rem;
+      margin: 2rem 1rem 0rem 1rem;
     }  
     
   }
@@ -133,5 +136,8 @@ clear: both;
     }
     main {
     left: 400px;
+    }
+    .sidebar{
+    margin-left:50px;
     }
   }
