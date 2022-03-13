@@ -8,7 +8,14 @@ html{
   font-family: 'jost', sans-serif;
   font-weight: 300;
   color:#2C5D6D;
-  
+  background-image: url(website_asset/cd_bg.png);
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-position:top;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size:contain;
   
 }
 h1, h2{
@@ -102,7 +109,7 @@ clear: both;
   position: static;
   width: 45%;
 }
-#year2022, #year2022_large, #year2021, #year2021_large, #year2020, #year2020_large{
+.year2022, .year2022_large, .year2021, .year2021_large, .year2020, .year2020_large{
   font-size:1rem;
 }
 .closeBtn{
