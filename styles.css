@@ -222,6 +222,9 @@ height: auto;
     }  
 
   }
+  p{
+    max-width: width 40rem;
+  }
   @media screen and (min-width: 1390px) {
     .works{
     grid-template-columns: 1fr 1fr 1fr;
@@ -235,6 +238,9 @@ height: auto;
     }
     .sidebar{
     margin-left:50px;
+    }
+    p{
+      max-width: width 50rem;
     }
   }
   @media screen and (min-width: 1700px) {
