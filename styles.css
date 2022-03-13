@@ -223,7 +223,7 @@ height: auto;
 
   }
   p{
-    max-width: width 40rem;
+    max-width:40rem;
   }
   @media screen and (min-width: 1390px) {
     .works{
@@ -240,7 +240,7 @@ height: auto;
     margin-left:50px;
     }
     p{
-      max-width: width 50rem;
+      max-width:50rem;
     }
   }
   @media screen and (min-width: 1700px) {
