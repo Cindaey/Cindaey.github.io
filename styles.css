@@ -186,11 +186,13 @@ height: auto;
   grid-template-columns: 1fr;
 
 }
-  @media screen and (min-width: 980px) {
-    .works{
+  @media screen and (min-width: 700px) {
+  .works{
       grid-template-columns: 1fr 1fr;
       grid-gap: 15px;
     }
+  }
+  @media screen and (min-width: 980px) {
     body{
       display:grid;
       grid-template-columns: 300px 1fr;
