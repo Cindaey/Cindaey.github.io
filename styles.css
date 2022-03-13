@@ -8,10 +8,11 @@ html{
   font-family: 'jost', sans-serif;
   font-weight: 300;
   color:#2C5D6D;
-  background-image: url(website_asset/cd_bg.png);
+  background-image: url(website_asset/cd_bg_mobile.png);
   background-repeat: no-repeat;
   background-attachment:fixed;
   background-position:top;
+  
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -39,8 +40,8 @@ header{
 }
 #cindy{
   display: grid;
-  grid-template-columns:40px auto 40px;
-  grid-template-rows:40px 200px 1fr;
+  grid-template-columns:40px auto 100px;
+  grid-template-rows:70px 200px 70px;
   text-align: center;
   margin:0 auto;
   padding-bottom:25px;
@@ -63,9 +64,11 @@ h1{
     font-size: 1rem;
     z-index: 2000;
     cursor: pointer;
-    border-radius: 0.3rem;
+    background-color: white;
+    color: #2C5D6D;
     font-family: 'Raleway', Arial, sans-serif;
     box-sizing: border-box;
+    margin:1rem;
 } 
 .menu:hover{
     transition:0.3s;
@@ -117,6 +120,9 @@ float:right;
 padding:0.5rem;
 margin-right:3rem;
 display:block;
+background-color: white;
+color: #2C5D6D;
+
 }
 body {
   animation: fadein 1s; 
@@ -206,6 +212,9 @@ p{
     max-width:35rem;
   }
   @media screen and (min-width: 980px) {
+    html{
+      background-image: url(website_asset/cd_bg.png);
+    }
     body{
       display:grid;
       grid-template-columns: 300px 1fr;
