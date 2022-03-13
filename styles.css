@@ -88,6 +88,9 @@ h1{
     clear: both;
     padding:1rem;
 }
+a,a:visited,a:active{
+  color:#2C5D6D;
+}
 li a{
 display: block;
 border: none;
@@ -100,7 +103,6 @@ clear: both;
 display: block;
 clear: both;
 }
-
 .ham #hamburger a {
   float: none;
   padding-top: 1rem;
