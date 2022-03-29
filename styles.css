@@ -45,6 +45,10 @@ button{
   text-align: center;
   display: block;
 }
+.ytlink a:hover{
+  border: none;
+  transition:1s;
+}
 h2{
   font-size:2rem;
 }
