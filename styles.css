@@ -36,6 +36,14 @@ button{
   background-color: white;
   border: solid 1px #2C5D6D;
 }
+/*.pb a{
+  padding:.5rem 1.2rem;
+  background-color: white;
+  border: solid 1px #2C5D6D;
+  max-width:300px;
+  text-align: center;
+  display: block;
+}*/
  .ytlink a{
   margin:0 auto;
   padding:.5rem 1.2rem;
@@ -76,9 +84,10 @@ header{
   margin:0 auto;
   grid-column: 2/3;
   grid-row: 2/3;
-  width:200px;
+  width:250px;
   height:auto;
 }
+
 .image{
   margin:0 auto;
   max-width: 100%;
