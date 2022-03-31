@@ -8,16 +8,19 @@ html{
   font-family: 'jost', sans-serif;
   font-weight: 300;
   color:#2C5D6D;
+  
+}
+header{
   background-image: url(website_asset/cd_bg_mobile.png);
   background-repeat: no-repeat;
   background-attachment:fixed;
   background-position:top;
   
-  -moz-background-size: cover;
+  -moz-background-size:cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
-  background-size:contain;
-  
+  background-size:cover;
+  background-position:30%
 }
 h1, h2{
   font-weight: 500;
@@ -259,15 +262,21 @@ p{
   @media screen and (min-width: 980px) {
     html{
       background-image: url(website_asset/cd_bg.png);
+      background-repeat: no-repeat;
+      background-attachment:fixed;
+      background-position:top;
+      -moz-background-size: cover;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size:cover;
     }
-    body{
 
-    }
     html, body {
       width: 100%;
       height: 100%;
      }
     header{
+      background-image:none;
     display: block;
     left:0;
     float: left;
