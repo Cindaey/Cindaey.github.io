@@ -18,7 +18,7 @@ header{
   -moz-background-size:cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
-  background-size:90vw;
+  background-size:200vw;
 }
 h1, h2{
   font-weight: 500;
