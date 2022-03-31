@@ -60,6 +60,7 @@ button{
 }
 h2{
   font-size:2rem;
+  margin-bottom: 2rem;
 }
 h3{
   font-size:2rem;
@@ -125,6 +126,7 @@ a:link{text-decoration: none;}
     padding:1rem;
 }
 a,a:visited,a:active{
+ 
   color:#2C5D6D;
 }
 li a{
@@ -162,6 +164,9 @@ background-color: white;
 color: #2C5D6D;
 
 }
+[aria-current]:not([aria-current="false"]) span{
+  border-bottom: solid 3px #2C5D6D;
+}
 body {
   animation: fadein 1s; 
  }
@@ -181,7 +186,7 @@ main{
   display: block;
 }
 section{
-  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 a.skip, a.skip:visited{
   background-color: white;
@@ -255,7 +260,7 @@ height: auto;
 
 }
 p{
-  max-width:30rem;
+  max-width:25rem;
 }
   @media screen and (min-width: 700px) {
     h2{
@@ -267,7 +272,7 @@ p{
     }
   }
   p{
-    max-width:35rem;
+    max-width:30rem;
   }
   .image{
     max-width: 80%;
@@ -336,7 +341,7 @@ p{
     }
   }
   p{
-    max-width:40rem;
+    max-width:35rem;
   }
   @media screen and (min-width: 1390px) {
     .works{
@@ -350,7 +355,7 @@ p{
     margin-left:50px;
     }
     p{
-      max-width:50rem;
+      max-width:40rem;
     }
   }
   @media screen and (min-width: 1700px) {
