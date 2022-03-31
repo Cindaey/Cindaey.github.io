@@ -24,6 +24,9 @@ h1, h2{
   font-weight: 500;
   
 }
+h2{
+  margin-bottom: 2rem;
+}
 button{
   font-family: 'jost', sans-serif;
 }
@@ -60,7 +63,6 @@ button{
 }
 h2{
   font-size:2rem;
-  margin-bottom: 2rem;
 }
 h3{
   font-size:2rem;
