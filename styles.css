@@ -14,13 +14,11 @@ header{
   background-image: url(website_asset/cd_bg_mobile.png);
   background-repeat: no-repeat;
   background-attachment:fixed;
-  background-position:top;
   
   -moz-background-size:cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
-  background-size:cover;
-  background-position:30%
+  background-size:180% 40%;
 }
 h1, h2{
   font-weight: 500;
@@ -268,7 +266,7 @@ p{
       -moz-background-size: cover;
       -webkit-background-size: cover;
       -o-background-size: cover;
-      background-size:cover;
+      background-size:contain;
     }
 
     html, body {
