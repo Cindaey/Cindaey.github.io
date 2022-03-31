@@ -68,22 +68,13 @@ h3, h4, h5, h6{
 }
 a:link{text-decoration: none;}
 .sidebar{display: none;}
-header{
-  margin:0px 10px;
-
-}
 #cindy{
-  display: grid;
-  grid-template-columns:40px auto 100px;
-  grid-template-rows:70px 200px 70px;
   text-align: center;
   margin:0 auto;
-  padding-bottom:25px;
+  padding-bottom:2rem;
 }
 #logo_a,#logo{
   margin:0 auto;
-  grid-column: 2/3;
-  grid-row: 2/3;
   width:250px;
   height:auto;
 }
@@ -94,24 +85,21 @@ header{
   display: block;
 }
 .projectintro{
+  width:100%;
   padding-bottom:2rem;
   display: block;
 }
 .part{
   padding-bottom:1.5rem;
 }
-h1{
-  grid-column: 2/3;
-  grid-row: 3/4;
-}
 .menu{
-  font-size: 1.1rem;
-    grid-row:1/2;
-    grid-column: 3/4;
     font-size: 1rem;
     z-index: 2000;
     cursor: pointer;
+    padding:1rem;
     background-color: white;
+
+    float: right;
     color: #2C5D6D;
     font-family: 'Raleway', Arial, sans-serif;
     box-sizing: border-box;
@@ -166,7 +154,7 @@ clear: both;
 }
 .closeBtn{
 float:right;
-padding:0.5rem;
+padding:1rem;
 margin-right:3rem;
 display:block;
 background-color: white;
@@ -189,6 +177,7 @@ body {
  }
 main{
   margin-left:15px;
+  display: block;
 }
 section{
   padding-top: 1.5rem;
@@ -253,7 +242,6 @@ p{
   max-width:30rem;
 }
   @media screen and (min-width: 700px) {
-  
     h2{
       font-size:3rem;
     }
@@ -273,18 +261,27 @@ p{
       background-image: url(website_asset/cd_bg.png);
     }
     body{
-      display:grid;
-      grid-template-columns: 300px 1fr;
-      font-size: 1.2rem;
+
     }
+    html, body {
+      width: 100%;
+      height: 100%;
+     }
     header{
-      grid-column: 1/2;
+    display: block;
+    left:0;
+    float: left;
     }
+    
     .national{
       padding:0rem 3rem;
+      font-size: 1.2rem;
+      height:auto;
     }
     #cindy{
+      clear: both;
       display: block;
+    
     }
     .sidebar{
       font-size: 1.2rem;
@@ -297,13 +294,21 @@ p{
       }
     main {
       z-index: 5000;
+      display: block;
       position:absolute;
-      grid-column: 2/3;
       left: 300px;
       margin: 2rem 1rem 0rem 1rem;
 
     }  
+    footer{
+      position:fixed;
+      bottom:0;
+      z-index: 6000;
+      width: 100%;
+      display:block;
+      padding-left:1rem;
 
+    }
   }
   p{
     max-width:40rem;
@@ -312,10 +317,7 @@ p{
     .works{
     grid-template-columns: 1fr 1fr 1fr;
     }
-    body{
-      display:grid;
-      grid-template-columns: 400px 1fr;
-    }
+
     main {
     left: 400px;
     }
