@@ -1,0 +1,360 @@
+/*universal style*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;    
+}
+html{
+  font-family: 'jost', sans-serif;
+  font-weight: 300;
+  color:#2C5D6D;
+  
+}
+header{
+  background-image: url(website_asset/cd_bg_mobile.png);
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  
+  -moz-background-size:cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size:100vh;
+}
+h1, h2{
+  font-weight: 500;
+  
+}
+button{
+  font-family: 'jost', sans-serif;
+}
+.top a{
+  margin:0 auto;
+  right:0px;
+  padding:.5rem 1.2rem;
+  bottom: 20px;
+  position:fixed;
+  display: block;
+  background-color: white;
+  border: solid 1px #2C5D6D;
+}
+/*.pb a{
+  padding:.5rem 1.2rem;
+  background-color: white;
+  border: solid 1px #2C5D6D;
+  max-width:300px;
+  text-align: center;
+  display: block;
+}*/
+ .ytlink a{
+  margin:0 auto;
+  padding:.5rem 1.2rem;
+  background-color: white;
+  border: solid 1px #2C5D6D;
+  max-width:300px;
+  text-align: center;
+  display: block;
+}
+.ytlink a:hover{
+  border: none;
+  transition:1s;
+}
+h2{
+  font-size:2rem;
+}
+h3{
+  font-size:2rem;
+}
+h3, h4, h5, h6{
+  font-weight: 300;
+}
+a:link{text-decoration: none;}
+.sidebar{display: none;}
+#cindy{
+  text-align: center;
+  margin:0 auto;
+  padding-bottom:2rem;
+}
+#logo_a,#logo{
+  margin:0 auto;
+  width:250px;
+  height:auto;
+}
+
+.image{
+  margin:0 auto;
+  max-width: 100%;
+  display: block;
+}
+.projectintro{
+  width:100%;
+  padding-bottom:2rem;
+  display: block;
+}
+.part{
+  padding-bottom:1.5rem;
+}
+.menu{
+    font-size: 1rem;
+    z-index: 2000;
+    cursor: pointer;
+    padding:1rem;
+    background-color: white;
+
+    float: right;
+    color: #2C5D6D;
+    font-family: 'Raleway', Arial, sans-serif;
+    box-sizing: border-box;
+    margin:1rem;
+} 
+.menu:hover{
+    transition:0.3s;
+}
+#hamburger{
+    background-color: white;
+    width: 100%;
+    z-index: 2000;
+    top:4rem;
+    font-size:1.2rem;
+    top: -70rem;
+    overflow-x: hidden;
+    position: fixed;
+    transition: top 1s;
+    list-style-type: none;
+    border-radius: 0.6rem;
+    clear: both;
+    padding:1rem;
+}
+a,a:visited,a:active{
+  color:#2C5D6D;
+}
+li a{
+display: block;
+border: none;
+cursor: pointer;
+margin:0 auto;
+clear: both;
+}
+.ham li a span{
+  margin:0 auto;
+display: block;
+clear: both;
+}
+.ham #hamburger a {
+  float: none;
+  padding-top: 1rem;
+  display: block;
+  height: auto;
+  left: 0 !important;
+  text-align: center;
+  margin:0 auto;
+  position: static;
+  width: 45%;
+}
+.year2022, .year2022_large, .year2021, .year2021_large, .year2020, .year2020_large{
+  font-size:1rem;
+}
+.closeBtn{
+float:right;
+padding:1rem;
+margin-right:3rem;
+display:block;
+background-color: white;
+color: #2C5D6D;
+
+}
+body {
+  animation: fadein 1s; 
+ }
+ @keyframes fadein {
+  0% {
+  opacity:0;
+  }
+  50%{
+  opacity:0.5;
+  }
+  100% {
+  opacity:1;
+  }
+ }
+main{
+  margin-left:15px;
+  display: block;
+}
+section{
+  padding-top: 1.5rem;
+}
+a.skip, a.skip:visited{
+  background-color: white;
+  color: #2C5D6D;
+  padding:0.50rem;
+  position: absolute;
+  transition:1s;
+  top: -120px;
+  right:70%;
+  z-index: 1070;
+  margin: 1rem 0rem 2rem 5rem;
+}
+a.skip:focus {
+  top: 0;     
+  outline-color: #2C5D6D
+}
+/*hover*/
+h1 { color: #2C5D6D;display:inline-block; margin:0;text-transform:uppercase; }
+h1:after {
+  display:block;
+  content: '';
+  border-bottom: solid 3px #2C5D6D;
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+h1:hover:after,h1:active:after,h1:focus:after { transform: scaleX(1); }
+h1.fromRight:after{ transform-origin:100% 50%; }
+h1.fromLeft:after{  transform-origin:  0% 50%; }
+
+nav ul li a{ color: #2C5D6D ;display:inline-block; margin:0;text-transform:uppercase; }
+nav ul li a:after,  .ytlink a:after, .top a:after{
+  display:block;
+  content: '';
+  border-bottom: solid 3px #2C5D6D;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+nav ul li a:after,  .ytlink a:after, .top a:after{ transform-origin: 100% 50%; }
+nav ul li a:hover:after, nav ul li a:active:after,nav ul li a:focus:after,  .ytlink a:hover:after,  
+.ytlink a:active:after,  .ytlink a:focus:after,.top a:hover:after, .top a:focus:after,.top a:active:after{ transform: scaleX(1); transform-origin:   0% 50%; }
+.thumbnails:hover,.thumbnails:active{
+  border: 1px solid #2C5D6D;
+  padding:10px;
+  transition:0.5s;
+  
+}
+*:focus {
+  outline-color: #2C5D6D;
+}
+
+
+/*index content*/
+
+.nationalpark{
+  margin:0 auto;
+  display: inline-block;
+  width:300px;
+  
+}
+h4{   display: block;}
+.thumbnails{
+margin:10px;
+width:300px;
+height: auto;
+
+}
+.works{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+
+}
+p{
+  max-width:30rem;
+}
+  @media screen and (min-width: 700px) {
+    h2{
+      font-size:3rem;
+    }
+  .works{
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 15px;
+    }
+  }
+  p{
+    max-width:35rem;
+  }
+  .image{
+    max-width: 80%;
+  }
+  @media screen and (min-width: 980px) {
+    html{
+      background-image: url(website_asset/cd_bg.png);
+      background-repeat: no-repeat;
+      background-attachment:fixed;
+      background-position:top;
+      -moz-background-size: cover;
+      -webkit-background-size: cover;
+      -o-background-size: cover;
+      background-size:contain;
+    }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+     }
+    header{
+      background-image:none;
+    display: block;
+    left:0;
+    float: left;
+    }
+    
+    #national{
+      padding:0rem 3rem;
+      font-size: 1.2rem;
+      height:auto;
+    }
+    #cindy{
+      clear: both;
+      display: block;
+    
+    }
+    a.skip, a.skip:visited{
+      right:20%;
+    }
+    .sidebar{
+      font-size: 1.2rem;
+      text-decoration: none;
+      list-style-type:none;
+      padding-left:1rem;
+      display:block;}
+    .menu, .closeBtn,#hamburger {
+      display: none;
+      }
+    main {
+      z-index: 5000;
+      display: block;
+      position:absolute;
+      left: 300px;
+      margin: 2rem 1rem 0rem 1rem;
+
+    }  
+    footer{
+      position:fixed;
+      bottom:0;
+      z-index: 6000;
+      width: 100%;
+      display:block;
+      padding-left:1rem;
+
+    }
+  }
+  p{
+    max-width:40rem;
+  }
+  @media screen and (min-width: 1390px) {
+    .works{
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    main {
+    left: 400px;
+    }
+    .sidebar{
+    margin-left:50px;
+    }
+    p{
+      max-width:50rem;
+    }
+  }
+  @media screen and (min-width: 1700px) {
+    .works{
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+  }
