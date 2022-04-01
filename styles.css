@@ -354,6 +354,7 @@ p{
       z-index: 6000;
       width: 100%;
     }
+    main{padding-bottom:4.5rem;}
   }
   p{
     max-width:35rem;
