@@ -22,9 +22,10 @@ header{
 }
 h1, h2, h4{
   font-weight: 500;
-  
 }
-
+h2{
+  font-size: 3.5rem;
+}
 main{padding-bottom:2rem;}
 h2{
   margin-bottom: 2rem;
@@ -91,9 +92,7 @@ video{
   border: none;
   transition:1s;
 }
-h2{
-  font-size:2rem;
-}
+
 h3{
   font-size:2rem;
 }
@@ -299,9 +298,7 @@ p{
     .top a{
       margin:0 1rem 3rem 0;
     }
-    h2{
-      font-size:1rem;
-    }
+
   .works{
       grid-template-columns: 1fr 1fr;
       grid-gap: 15px;
