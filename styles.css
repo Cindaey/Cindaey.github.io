@@ -20,10 +20,11 @@ header{
   -o-background-size: cover;
   background-size:200vw;
 }
-h1, h2{
+h1, h2, h4{
   font-weight: 500;
   
 }
+
 main{padding-bottom:2rem;}
 h2{
   margin-bottom: 2rem;
@@ -62,7 +63,7 @@ footer{
   display: block;
 }*/
  .ytlink a{
-  margin:0 auto;
+  margin:1rem auto;
   padding:.5rem 1.2rem;
   background-color: white;
   border: solid 1px #2C5D6D;
@@ -80,7 +81,7 @@ h2{
 h3{
   font-size:2rem;
 }
-h3, h4, h5, h6{
+h3, h5, h6{
   font-weight: 300;
 }
 a:link{text-decoration: none;}
