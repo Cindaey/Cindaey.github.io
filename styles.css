@@ -292,7 +292,7 @@ height: auto;
 }
 p{
   max-width:25rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
   @media screen and (min-width: 700px) {
     .top a{
