@@ -1,3 +1,20 @@
+<?php
+if($_POST["message"]) {
+    mail("your@email.address", "Form to email message", $_POST["message"], "From: an@email.address");
+}
+if($_POST["submit"]) {
+    $recipient="your@email.address";
+    $subject="Form to email message";
+    $sender=$_POST["sender"];
+    $senderEmail=$_POST["senderEmail"];
+    $message=$_POST["message"];
+
+    $mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
+
+    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
+
+    $thankYou="<p>Thank you! Your message has been sent.</p>";
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -21,26 +38,20 @@
                 <nav class="ham">
                     <ul id="hamburger">
                         <li><button aria-label="Close" class="closeBtn" id="closeBtn" onclick="closeNav()"><span>&times;</span></button></li>
-                        <li><a href="index.html" aria-current="page" onfocus="openNav()"><span>Home</span></a></li>
-                        <li><a class="year2022_large" href="#2022" onfocus="openNav()"><span>2022</span></a></li>
-                        <li><a class="year2021_large" href="#2021" onfocus="openNav()"><span>2021</span></a></li>
-                        <li><a class="year2020_large" href="#2020" onfocus="openNav()"><span>2020</span></a></li>
+                        <li><a href="index.html" aria-current="false" onfocus="openNav()"><span>Home</span></a></li>
                         <li><a href="about.html" aria-current="false" onfocus="openNav()"><span>About Cindy</span></a></li>
                         <li><a href="wportfolio.html" aria-current="false" onfocus="openNav()"><span>Commission</span></a></li>
-                        <li><a href="motion.html" aria-current="false" onfocus="openNav()"><span>Contact</span></a></li>
+                        <li><a href="contact.html" aria-current="page" onfocus="openNav()"><span>Contact</span></a></li>
                         <li><a href="wportfolio.html" aria-current="false" onfocus="openNav()" onblur="closeNav()"><span>Terms of Use/Permission</span></a></li>
 
                 </ul>
                 </nav>
                 <nav>
                     <ul class="sidebar">
-                        <li><a href="index.html" aria-current="page"><span>Home</span></a></li>
-                        <li><a class="year2022_large" href="#2022" aria-current="false"><span>2022</span></a></li>
-                        <li><a class="year2021_large" href="#2021" aria-current="false"><span>2021</span></a></li>
-                        <li><a class="year2020_large" href="#2020" aria-current="false"><span>2020</span></a></li>
+                        <li><a href="index.html" aria-current="false"><span>Home</span></a></li>
                         <li><a href="about.html" aria-current="false"><span>About Cindy</span></a></li>
                         <li><a href="wportfolio.html" aria-current="false"><span>Commission</span></a></li>
-                        <li><a href="motion.html" aria-current="false"><span>Contact</span></a></li>
+                        <li><a href="contact.html" aria-current="page"><span>Contact</span></a></li>
                         <li><a href="wportfolio.html" aria-current="false"><span>Terms of Use/Permission</span></a></li>
 
                 </ul>
@@ -50,16 +61,17 @@
                 <div class="projectintro" id="top">
             <h2>Contact</h2>
         </div>
-        <form action=”mailto:cindydong637@gmail.com” method=”POST” enctype=”multipart/form-data” name=”EmailForm”>
-        <h3>Name:</h3>
-        <input type=”text” size=”19″ name=”ContactName”>
+        <form method="post" action="contact.php">
+        <label>Name:</label>
+        <input name="sender">
 
+        <label>Email address:</label>
+        <input name="senderEmail">
 
-        <h3>Message:</h3> 
-        <textarea name=”ContactCommentt” rows=”6″ cols=”20″>
-        </textarea>
-        
-        <div class="ytlink"><button><input type=”submit” value=”Submit”></button></div>
+        <label>Message:</label>
+        <textarea rows="5" cols="20" name="message"></textarea>
+
+        <input type="submit" name="submit">
     </form>
         </main>
         <footer>
