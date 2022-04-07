@@ -55,6 +55,15 @@ footer{
   z-index: 10000;
   border: solid 1px #2C5D6D;
 }
+.submit{
+  margin:1rem auto;
+  padding:.5rem 1.2rem;
+  background-color: white;
+  border: solid 1px #2C5D6D;
+  max-width:300px;
+  text-align: center;
+  display: block;
+}
 /*.pb a{
   padding:.5rem 1.2rem;
   background-color: white;
@@ -235,6 +244,12 @@ a.skip:focus {
   outline-color: #2C5D6D
 }
 /*hover*/
+input[type=submit]:hover,input[type=submit]:active,input[type=submit]:focus{
+  transition:1s;
+  color:white;
+  border-color: white;
+  background-color: #2C5D6D;
+}
 h1 { color: #2C5D6D;display:inline-block; margin:0;text-transform:uppercase; }
 h1:after {
   display:block;
