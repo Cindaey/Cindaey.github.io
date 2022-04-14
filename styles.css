@@ -321,7 +321,7 @@ p{
   max-width:25rem;
   margin-bottom: 1rem;
 }
-  @media screen and (min-width: 740px) {
+  @media screen and (min-width: 790px) {
     .top a{
       margin:0 1rem 3rem 0;
     }
