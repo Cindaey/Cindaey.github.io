@@ -422,7 +422,7 @@ p{
         max-width:400px;
       }
   }
-  @media screen and (min-width: 2400px) {
+  @media screen and (min-width: 2450px) {
     .works{
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
       grid-gap: 85px;
