@@ -401,7 +401,7 @@ p{
     }
     p{
       max-width:40rem;
-      font-size: 1.4rem;
+      font-size: 1.3rem;
     }
   }
   @media screen and (min-width: 1700px) {
@@ -422,7 +422,7 @@ p{
       }
     p{
         max-width:50rem;
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
     nav ul li a{
       font-size:1.4rem;
@@ -430,5 +430,8 @@ p{
     .thumbnails{
       width:340px;
       max-width:450px;
+    }
+    h3{
+      font-size: 2.3rem;
     }
   }
