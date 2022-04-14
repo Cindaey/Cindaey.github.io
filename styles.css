@@ -302,6 +302,7 @@ height: auto;
 margin: 0 auto;
 text-align: center;
 }
+
 .works{
   text-align: center;
   display: grid;
@@ -423,7 +424,7 @@ p{
   @media screen and (min-width: 2100px) {
     .works{
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-      grid-gap: 40px;
+      grid-gap: 50px;
       }
     p{
         max-width:50rem;
@@ -433,7 +434,7 @@ p{
       font-size:1.4rem;
     }
     .thumbnails{
-      width:340px;
+      width:370px;
       max-width:450px;
     }
     h3{
