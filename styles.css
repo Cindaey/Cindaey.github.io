@@ -434,6 +434,9 @@ p{
     nav ul li a{
       font-size:1.4rem;
     }
+    .year2022_large, .year2021_large,.year2020_large{
+      font-size:1.3rem;
+    }
     .thumbnails{
       width:370px;
       max-width:450px;
