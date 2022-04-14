@@ -291,7 +291,7 @@ nav ul li a:hover:after, nav ul li a:active:after,nav ul li a:focus:after,  .ytl
   width:300px;
   
 }
-h4{   display: block;}
+h4{display: block;}
 .thumbnails{
 margin:10px;
 width:300px;
@@ -425,7 +425,7 @@ p{
   @media screen and (min-width: 2400px) {
     .works{
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-      grid-gap: 70px;
+      grid-gap: 85px;
       }
     p{
         max-width:50rem;
