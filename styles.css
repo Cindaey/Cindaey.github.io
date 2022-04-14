@@ -415,6 +415,7 @@ p{
       }
     .works{
       grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap:30px;
       }
     .thumbnails{
         width:350px;
