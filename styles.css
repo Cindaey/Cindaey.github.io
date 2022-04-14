@@ -298,6 +298,10 @@ width:300px;
 height: auto;
 
 }
+.nationalpark h4{
+margin: 0 auto;
+text-align: center;
+}
 .works{
   text-align: center;
   display: grid;
