@@ -401,16 +401,22 @@ p{
     margin-left:50px;
     }
     p{
-      max-width:40rem;
+      max-width:50rem;
+      font-size: 1.2rem;
     }
   }
   @media screen and (min-width: 1700px) {
     .works{
       grid-template-columns: 1fr 1fr 1fr 1fr;
       }
+      
   }
   @media screen and (min-width: 2100px) {
     .works{
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
       }
+    p{
+        max-width:55rem;
+        font-size: 1.2rem;
+    }
   }
