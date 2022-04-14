@@ -311,11 +311,6 @@ width:300px;
 height: auto;
 
 }
-.nationalpark h4{
-margin: 0 auto;
-text-align: center;
-}
-
 .works{
   text-align: center;
   display: grid;
@@ -434,6 +429,12 @@ p{
         width:350px;
         max-width:400px;
       }
+      .works a h4{
+        margin:0 auto;
+        padding-left: 30%;
+        text-align: center;
+        justify-items: center;
+    }
   }
   @media screen and (min-width: 2450px) {
     .works{
@@ -457,4 +458,5 @@ p{
     h3{
       font-size: 2.3rem;
     }
+
   }
