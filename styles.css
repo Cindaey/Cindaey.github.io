@@ -337,7 +337,7 @@ p{
   .image{
     max-width: 80%;
   }
-  @media screen and (min-width: 980px) {
+  @media screen and (min-width: 1040px) {
     html{
       background-image: url(website_asset/cd_bg.png);
       background-repeat: no-repeat;
