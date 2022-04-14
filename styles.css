@@ -193,6 +193,7 @@ clear: both;
 }
 .year2022, .year2022_large, .year2021, .year2021_large, .year2020, .year2020_large{
   font-size:1rem;
+  padding-left: 15px;
 }
 .closeBtn{
 float:right;
