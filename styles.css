@@ -390,7 +390,12 @@ main p,h1,h2,h3,h4,.image{
       text-decoration: none;
       list-style-type:none;
       padding-left:1rem;
-      display:block;}
+      display:block;
+      
+    }
+    header{
+      position: fixed;
+    }
     .menu, .closeBtn,#hamburger {
       display: none;
       }
