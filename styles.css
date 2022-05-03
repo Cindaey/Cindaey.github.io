@@ -301,7 +301,10 @@ nav ul li a:hover:after, nav ul li a:active:after,nav ul li a:focus:after, .ytli
   width:300px;
   
 }
-h4{display: block;}
+h4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: block;}
 .thumbnails{
 margin:10px;
 width:300px;
