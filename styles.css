@@ -10,6 +10,7 @@ html{
   color:#2C5D6D;
   
 }
+
 header{
   background-image: url(website_asset/cd_bg_mobile.png);
   background-repeat: no-repeat;
@@ -136,7 +137,7 @@ a:link{text-decoration: none;}
   display: block;
 }
 .part{
-  padding-bottom:1.5rem;
+  padding-top:1.5rem;
 }
 .menu{
     font-size: 1rem;
@@ -169,6 +170,7 @@ a:link{text-decoration: none;}
     clear: both;
     padding:1rem;
 }
+main{margin-bottom: 2rem;}
 a,a:visited,a:active{
  
   color:#2C5D6D;
@@ -302,7 +304,7 @@ nav ul li a:hover:after, nav ul li a:active:after,nav ul li a:focus:after, .ytli
 }
 h4{
   font-size: 1.5rem;
-  margin-top: 1rem;
+  margin-bottom: 0.25rem;
   display: block;}
 .thumbnails{
 margin:10px;
@@ -314,10 +316,10 @@ height: auto;
   text-align: center;
   display: grid;
   grid-template-columns: 1fr;
-
 }
 p{
   max-width:25rem;
+  padding-bottom: 0.5rem;
 }
 main p,h1,h2,h3,h4,.image{
   margin-left:1.2rem;
@@ -341,6 +343,8 @@ main p,h1,h2,h3,h4,.image{
   .works{
       grid-template-columns: 1fr 1fr;
       grid-gap: 15px;
+      grid-row-end:2;
+      grid-row-start:0;
     }
   }
   p{
@@ -350,6 +354,8 @@ main p,h1,h2,h3,h4,.image{
   .image{
     max-width: 80%;
   }
+  body{padding-bottom: 2.5rem;}
+
   @media screen and (min-width: 1065px) {
     html{
       background-image: url(website_asset/cd_bg.png);
@@ -407,22 +413,21 @@ main p,h1,h2,h3,h4,.image{
       position:absolute;
       left: 300px;
       margin: 2rem 1rem 0rem 1rem;
-
     }  
+    body{padding-bottom: 3rem;}
     footer{
       position:fixed;
       bottom:0;
       z-index: 6000;
       
     }
-    main{padding-bottom:4.5rem;}
   }
   p{
     max-width:35rem;
   }
   @media screen and (min-width: 1470px) {
     .works{
-    grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
     }
 
     main {
@@ -435,6 +440,7 @@ main p,h1,h2,h3,h4,.image{
       max-width:40rem;
       font-size: 1.3rem;
     }
+    body{padding-bottom: 2.6rem;}
   }
   @media screen and (min-width: 1950px) {
     .sidebar{
@@ -477,5 +483,7 @@ main p,h1,h2,h3,h4,.image{
     h3{
       font-size: 2.3rem;
     }
-
+    body{
+      padding-bottom: 3rem;
+    }
   }
