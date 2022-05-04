@@ -21,7 +21,7 @@ header{
   -o-background-size: cover;
   background-size:200vw;
 }
-h1, h2, h4{
+h1, h2{
   font-weight: 500;
 }
 h2{
@@ -112,6 +112,9 @@ h3{
   font-size:2rem;
 }
 h3, h5, h6{
+  font-weight: 400;
+}
+h4{
   font-weight: 300;
 }
 a:link{text-decoration: none;}
@@ -285,7 +288,6 @@ nav ul li a:hover:after, nav ul li a:active:after,nav ul li a:focus:after, .ytli
 
 .thumbnails:hover,.thumbnails:active{
   border: 1px solid #2C5D6D;
-  padding:10px;
   transition:0.5s;
   
 }
