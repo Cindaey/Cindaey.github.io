@@ -133,6 +133,7 @@ a:link{text-decoration: none;}
 .image{
   max-width: 100%;
   display: block;
+  margin-bottom: 1rem;
 }
 .projectintro{
   width:100%;
