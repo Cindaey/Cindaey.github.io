@@ -288,7 +288,7 @@ nav ul li a:hover:after, nav ul li a:active:after,nav ul li a:focus:after, .ytli
 
 
 .thumbnails:hover,.thumbnails:active{
-  border: 1px solid #2C5D6D;
+  border-radius: 45px;
   transition:0.5s;
   
 }
@@ -312,6 +312,7 @@ h4{
 
 .thumbnails{
 margin:10px 10px 0px 10px;
+border: 1px solid #2C5D6D;
 width:300px;
 height: auto;
 
